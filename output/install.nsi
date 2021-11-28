@@ -150,14 +150,9 @@ program_files:
   File "WinSparkle.dll"
   ; shared data files
   SetOutPath $INSTDIR\data
-  File "data\default.yaml"
-  File "data\key_bindings.yaml"
-  File "data\punctuation.yaml"
-  File "data\symbols.yaml"
-  File "data\weasel.yaml"
-  File "data\essay.txt"
-  File "data\*.schema.yaml"
-  File "data\*.dict.yaml"
+  File "data\*.yaml"
+  File /nonfatal "data\*.txt"
+  File /nonfatal "data\*.gram"
   ; opencc data files
   SetOutPath $INSTDIR\data\opencc
   File "data\opencc\*.json"

@@ -1,3 +1,38 @@
+<a name="0.14.3"></a>
+## 0.14.3 (2019-06-22)
+
+
+#### 主要更新
+
+* 升級核心算法庫 [librime 1.5.3](https://github.com/rime/librime/blob/master/CHANGELOG.md#153-2019-06-22)
+  * 修復 `single_char_filter` 組件
+  * 完善上游項目 `librime` 的全自動發佈流程，免去手工上傳構建結果的步驟
+
+
+
+<a name="0.14.2"></a>
+## 0.14.2 (2019-06-17)
+
+
+#### 主要更新
+
+* 升級核心算法庫 [librime 1.5.2](https://github.com/rime/librime/blob/master/CHANGELOG.md#152-2019-06-17)
+  * 修復用戶詞的權重，穩定造句質量、平衡翻譯器優先級 [librime#287](https://github.com/rime/librime/issues/287)
+  * 建議 0.14.1 版本用家升級
+
+
+
+<a name="0.14.1"></a>
+## 0.14.1 (2019-06-16)
+
+
+#### 主要更新
+
+* 升級核心算法庫 [librime 1.5.1](https://github.com/rime/librime/blob/master/CHANGELOG.md#151-2019-06-16)
+  * 修復未裝配語言模型時缺省的造句算法 ([weasel#383](https://github.com/rime/weasel/issues/383))
+
+
+
 <a name="0.14.0"></a>
 ## 0.14.0 (2019-06-11)
 
